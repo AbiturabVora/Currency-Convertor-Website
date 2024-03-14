@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Currency Converter</h2>
+            <p id="datetime"></p>
+        </div>
+        <div class="content">
+            <input type="number" id="amount" placeholder="Enter amount in INR">
+            <select id="currency">
+                <option value="USD">USD - United States Dollar</option>
+                <option value="JPY">JPY - Japanese Yen</option>
+                <option value="CNY">CNY - Chinese Yuan</option>
+                <option value="PKR">PKR - Pakistani Rupee</option>
+                <option value="KRW">KRW - South Korean Won</option>
+            </select>
+            <button onclick="convert()">Convert</button>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
